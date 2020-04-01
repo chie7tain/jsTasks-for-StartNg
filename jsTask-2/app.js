@@ -20,9 +20,8 @@ const interestCalculator=(arr)=>{
     }
     interest = (item.Principal * rate * item.time)/100;
     interestData.push({Principal:item.Principal,time:item.time,rate:rate,interest:interest});
-    console.log(interestData);
-    return;
   });
+  console.log(interestData);
 return interestData;
 }
 // function called with the data array as argurment
